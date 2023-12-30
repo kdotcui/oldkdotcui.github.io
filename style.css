@@ -1,0 +1,90 @@
+/* Set the text font and  text color of the page */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+}
+
+/* Sets a height for the header element */
+header {
+    height: 225px; 
+}
+
+/* wrap heading and image in a single row */
+.left {
+    float: left; 
+    width:50%;
+}
+
+/* for the heading, sets size and position and alignment */
+.left h3 {
+    text-align:center;
+    line-height: 90px;
+    font-size:65px;
+}
+
+/* for the heading, sets a size, position and makes the image a circle*/
+.left img {
+    max-width: 70%; 
+    height: auto; 
+    width: 220px; 
+    height: 220px; 
+    border-radius: 100%;
+}
+
+/*centers the navigation and colors the "button" */
+#topnav {
+    margin: 0 auto;
+    background-color: palevioletred;
+}
+
+/*removes the underline, sets the text color, increases font size*/
+#topnav a {
+    text-decoration: none;
+    color:pink;
+    padding: 5px;
+    font-size:x-large;
+}
+
+/* changes the color of background and text when user is hovering*/
+nav a:hover{
+    background-color:purple;
+    color:pink;
+}
+
+/* sets a new background color for the main section */
+.body {
+    background-color: palevioletred;
+}
+
+/* Wraps the lists in 3 columns and 1 row */
+.list {
+    float: left; 
+    width:33%;
+}
+
+/* Sets the color of list elements to purple*/
+.main li {
+    color:purple;
+}
+
+/* overrides anchor text color to purple */
+.main li a {
+    color:purple;
+    text-decoration: none;
+}
+
+/* sets each table text element to purple */
+td {
+    color:purple;
+}
+
+/*sets the top row of the table to black and emphasizes it */
+#toprow {
+    color:black;
+    font-weight: bold;
+}
+
+/* Sets the footer background to palevioletred*/
+footer {
+    background-color: palevioletred;
+}
