@@ -58,9 +58,8 @@ nav a:hover{
 
 /* Wraps the lists in 3 columns and 1 row */
 .list {
-    padding-left:20px;
     float: left; 
-    width:40%;
+    width:50%;
 }
 
 /* Sets the color of list elements to purple*/
